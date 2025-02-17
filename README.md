@@ -13,7 +13,7 @@
 
 # Markdown記法 チートシート
 ## 見出し
-```md
+```
 # H1 見出し
 ## H2 見出し
 ### H3 見出し
@@ -23,7 +23,7 @@
 ```
 
 ## 強調
-```md
+```
 **太字**
 __太字__
 
@@ -32,16 +32,23 @@ _斜体_
 
 ~~打ち消し線~~
 ```
+**太字**
+__太字__
+
+*斜体*
+_斜体_
+
+~~打ち消し線~~
 
 ## 箇条書き
-```md
+```
 - リスト1
   - リスト1-1
   - リスト1-2
 - リスト2
 ```
 
-```md
+```
 1. 項目1
 2. 項目2
    1. 項目2-1
@@ -50,37 +57,53 @@ _斜体_
 ```
 
 ## コードブロック
-```js
+```
 console.log("Hello, World!");
 ```
 
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+
 ## 引用
-```md
+```
 > これは引用です
 >> ネストされた引用
 ```
+> これは引用です
+>> ネストされた引用
 
 ## リンク
-```md
+```
 [GitHub](https://github.com/)
 ```
+[GitHub](https://github.com/)
 
 ## 画像
-```md
+```
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ```
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 ## テーブル
-```md
+```
 | 名前  | 年齢 | 職業     |
 |------|----|---------|
 | 太郎  | 25 | エンジニア |
 | 花子  | 30 | デザイナー |
 ```
+| 名前  | 年齢 | 職業     |
+|------|----|---------|
+| 太郎  | 25 | エンジニア |
+| 花子  | 30 | デザイナー |
 
 ## チェックリスト
-```md
+```
 - [x] タスク1
 - [ ] タスク2
 - [ ] タスク3
 ```
+- [x] タスク1
+- [ ] タスク2
+- [ ] タスク3
